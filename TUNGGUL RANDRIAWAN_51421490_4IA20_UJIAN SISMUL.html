@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Rekomendasi Aplikasi Tunggul</title>
+    <style>
+        body {
+            background-color: rgb(107, 44, 170);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgb(44, 120, 140);
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .moving-text {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            animation: marquee 10s linear infinite;
+            font-weight: bold;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        h2 {
+            color: rgb(255, 255, 255);
+        }
+
+        img {
+            display: block;
+            margin: 10px 0;
+            max-width: 200px;
+        }
+
+        .media-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        video {
+            max-width: 90%;
+            border: 3px solid white;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: rgb(255, 0, 0);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat datang di WEB Rekomendasi Aplikasi Tunggul</h1>
+    </header>
+
+    <div class="moving-text">Rekomendasi Aplikasi Tunggul</div>
+
+    <h2>Spotify adalah sebuah layanan streaming musik dan siniar yang berbasis di Swedia dan diluncurkan pada 7 Oktober 2008. 
+        Platform ini dimiliki oleh Spotify AB. JOOX adalah layanan musik streaming yang diluncurkan pada Januari 2015 oleh Tencent, 
+        yang merupakan perusahaan di balik aplikasi ponsel instant messaging WeChat. JOOX tersedia di beberapa negara Asia.</h2>
+
+    <p>🖼️ Ini merupakan contoh gambar pada HTML</p>
+    <img src="https://i.pinimg.com/originals/88/fb/60/88fb60ec556886275ae280857f321e46.gif" alt="Gambar Chibi">
+
+    <p>🖼️ Ini merupakan contoh gambar pada HTML</p>
+    <img src="https://awsimages.detik.net.id/community/media/visual/2023/02/08/gambar-pemandangan-7.jpeg?w=1314" alt="Gambar Naruto">
+
+    <p>🖼️ Ini merupakan contoh gambar animasi GIF</p>
+    <img src="https://img1.picmix.com/output/stamp/normal/9/1/4/4/2334419_ee2a7.gif" alt="Animasi GIF">
+
+    <div class="media-container">
+        <p>🎵 Dengarkan Musik Berikut:</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
+
+        <p>🎬 Tonton Video Berikut:</p>
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video.
+        </video>
+    </div>
+
+    <footer> Dibuat Untuk Lab Sismul </footer>
+
+</body>
+</html>
